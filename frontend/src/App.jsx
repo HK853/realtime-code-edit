@@ -188,7 +188,7 @@ import io from "socket.io-client";
 import Editor from "@monaco-editor/react";
 import { v4 as uuidv4 } from "uuid";
 
-const socket = io("https://realtime-code-editor-final.onrender.com");
+const socket = io("https://realtime-code-edit.onrender.com");
 
 const App = () => {
   const [joined, setJoined] = useState(false);
